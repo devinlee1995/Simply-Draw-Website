@@ -1,0 +1,397 @@
+body { /*The style for all the pages with a background border*/
+	background-image: url('../Background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 103%;
+}
+
+#main { /*The style for the main pages (index, aboutindex, tutorialsindex, materialsindex*/
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+#logo { /*The style for the logo container*/
+	margin: 10px auto 10px auto;
+	width: 200px;
+	padding-top: 10px; 
+}
+
+#navigation { /*The style for the navigation bar container*/
+	width: 960px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #00b4ff;
+}
+
+#centerpic { /*The style for the center picture of the homepage*/
+	border: solid black;
+	border-width: 20px 120px 30px 120px;
+	margin: 30px auto 30px auto;
+	width: 660px;
+	height: 325px;
+}
+
+#quote { /*The style for the quotes*/
+	width: 960px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+#Headings { /*The style for the Headings*/
+	width: 900px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+#Tutorials { /*The style for the Tutorial's subheading*/
+	width: 900px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+#Materials { /*The style for the Materials's subheading*/
+	width: 900px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#Boxes { /*The style for the navigation boxes and the hovering module on the homepage*/
+width: 960px;
+overflow: auto;
+margin: 0px auto 0px auto;
+}
+
+	.box1 {
+	width: 300px;
+	height: 220px;
+	background-image: url('../images/AboutusHomepage.jpg');
+	background-repeat: no-repeat;
+	}
+
+	.box2 {
+	width: 300px;
+	height: 220px;
+	background-image: url('../images/TutorialsHomepage.jpg');
+	background-repeat: no-repeat;
+	}
+
+	.box3 {
+	width: 300px;
+	height: 220px;
+	background-image: url('../images/MaterialsHomepage.jpg');
+	background-repeat: no-repeat;
+	}
+
+	.box1:hover,.box2:hover,.box3:hover {
+	background-position: 0 -220;
+	}
+
+	.box1, .box2, .box3 {
+	position: relative;
+	margin: 10px;
+	float: left;
+	}
+
+#Boxes2 { /*The style for the navigation boxes and the hovering module on the Tutorials page*/
+width: 960px;
+overflow: auto;
+margin: 0px auto 0px auto;
+padding-bottom: 160px; 
+}
+
+	.box4 {
+	width: 300px;
+	height: 220px;
+	background-image: url('../images/gradientpic.jpg');
+	background-repeat: no-repeat;
+	}
+
+	.box5 {
+	width: 300px;
+	height: 220px;
+	background-image: url('../images/texture.jpg');
+	background-repeat: no-repeat;
+	}
+
+	.box6 {
+	width: 300px;
+	height: 220px;
+	background-image: url('../images/still-life.jpg');
+	background-repeat: no-repeat;
+	}
+
+	.box4:hover,.box5:hover,.box6:hover {
+	background-position: 0 -220;
+	}
+
+	.box4, .box5, .box6 {
+	position: relative;
+	margin: 10px;
+	float: left;
+
+	}
+
+#picbox {
+	padding-bottom: 100px;
+}
+
+#rotatingpics {
+	border: solid black;
+	border-width: 20px 80px 20px 80px;
+	margin: 20px auto 20px auto;
+	width: 700px;
+	height: 350px;
+}
+
+
+/*This is for the Tutorial steps*/
+#Gradient {
+width: 1000px;
+height: 600px; 
+margin: 0px auto 0px auto;
+overflow: auto;
+}
+
+.Number {
+	width: 30px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	padding-right: 10px;
+	float: left;
+}
+
+#picture {
+	border: solid black;
+	border-width: 20px 20px 20px 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 60px;  
+	width: 400px;
+	height: 373px;
+	float: left;
+}
+
+.Step {
+	border: solid black;
+	border-width: 20px 20px 20px 20px;
+	width: 374px;
+	height: 500px;
+	margin-left: 50px;
+	margin-top: 10px; 
+	margin-bottom: 60px; 
+	float: left;
+
+
+}
+
+.Steplast {
+	border: solid black;
+	border-width: 20px 20px 20px 20px;
+	width: 374px;
+	height: 500px;
+	margin-left: 50px;
+	margin-top: 10px; 
+	margin-bottom: 60px;
+	float: left;
+}
+
+#text {
+	font-size: 22.5px;
+	text-indent: 10px;
+	line-height: 1.8em;  
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+
+/*This is the CSS code/styles for all the text shown on the website*/
+a {
+	color: #00b4ff;
+	font-size: 26px;
+	font-family: Helvetica; 
+	font-weight: lighter;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+span {
+	color: #00b4ff;
+	font-size: 26px;
+	font-family: Helvetica; 
+	font-weight: lighter;
+	text-decoration: none;
+}
+p {
+	color: #00b4ff;
+	font-size: 26px;
+	font-family: Helvetica; 
+	font-weight: lighter;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+p.description:first-letter {
+	font-size: 200%;
+}
+
+p.description {
+	text-align: center; 
+	line-height: 1.5em; 
+}
+
+p.remember {
+	text-align: left;
+	line-height: 2.0em; 
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+p.remember:first-letter {
+	font-size: 200%;
+}
+
+p.quote {
+	text-align: center; 
+	padding-bottom: 20px;
+}
+
+p.footer {
+	color: #00b4ff;
+	font-size: 26px;
+	font-family: Helvetica; 
+	font-weight: lighter;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: 200%;
+}
+
+li {
+	display: inline; 
+	}
+
+h1 {
+	color: #00b4ff;
+	font-size: 40px;
+	font-family: Helvetica Neue; 
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+h2 {
+	color: #00b4ff;
+	font-size: 40px;
+	font-family: Helvetica Neue; 
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+/*This is the CSS style for the footers (both right and left)*/
+#footer {
+	height: 40px;
+	width: 940px;
+	
+	border-top: 1px solid #00b4ff;
+	margin: 20px auto 20px auto;
+}
+
+#footerleft {
+	width: 450px;
+	height: 20px;
+	float: left;
+	text-align: left;
+}
+
+#footerright {
+	width: 450px;
+	height: 20px;
+	float: right;
+	text-align: right;
+}
+
+.footnav {
+	display: inline;
+	margin: 15px;	
+}
+
+
+#description {
+	height: 523px;
+	width: 770px;
+	margin: 0px auto 0px auto;
+	padding: 10px; 
+	border: solid black;
+	border-width: 20px 40px 20px 40px;
+	
+}
+
+#Texture{
+	float: right;
+}
+
+#Texture2 {
+	float: left;
+}
+
+/*This is the CSS code for the Image Slider*/
+body {
+    text-align: center;
+  }
+#images {
+  width: 700px;
+  height: 330px;
+  overflow: hidden;
+  position: relative;
+  border: solid black;
+  border-width: 20px 90px 20px 90px;
+  margin: 20px auto;
+}
+
+#images img {
+  width: 700px;
+  height: 325px;
+  position: absolute;
+  top: 0;
+  left: -400px;
+  z-index: 1;
+  opacity: 0;
+  
+  transition: all linear 500ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+}
+#images img:first-child {
+  left: 0;
+  opacity: 1;
+}
+
+#slider {
+	padding: 30px;
+}
+
+#slider a {
+  text-decoration: none;
+  text-align: center;
+  background: #a3e4ff;
+  padding: 10px 10px;
+  color: #222;
+  margin: 20px;
+
+}
+#slider a:hover {
+  background: #00b4ff;
+}
+
+
+
