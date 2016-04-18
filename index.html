@@ -1,0 +1,68 @@
+<!-- This is a drawing tutorial website called Simply Draw. It is a 
+cleanly designed website that teaches users how to draw gradients, textures, and finally, a still-life piece with the previously mentioned techniques.
+
+HTML files and pages on the website are: 
+	-Index.html: The Homepage with navigation links to the other pages.
+	-aboutindex.html: The About Us page describing the website
+	-tutorialsindex.html: The page listing all the Tutorials
+		-gradient.html: The page for drawing gradients
+		-texture.html: The page for drawing texture
+		-still-life.html: The page for drawing still-life
+    -materialsindex.html: The page with a CSS slider listing the materials needed
+
+CSS:
+	-all the styles are in style.css
+-->
+
+<html>
+	<head> 
+		<title> Simply Draw </title>
+		<!-- style.css is the only CSS stylesheet that the website uses -->
+		<link href= "CSS/style.css" type= "text/css" rel= "stylesheet">
+	</head>
+
+	<body> 
+	<div id= "main"><!--Start of main body container of the page-->
+
+		<div id= "logo"> <!--Logo container setting the logo on the page-->
+			<a href= "index.html"> <!--Links logo image to homepage-->
+			<img src= "images/WebDesignLogo1.jpg" width= "175" height= "175" class= "img-circle"> </a>
+		</div> <!--End of logo container -->
+
+		<div id= "navigation"> <!--Navigation bar that sets up links to pages -->
+			<li> <a class= "about" href="aboutindex.html">About Us</a><span class= "line">|</span> </li>
+			<li> <a class= "tutorials" href="tutorialsindex.html">Tutorials</a> <span class= "line">|</span> </li>
+			<li> <a class= "materials" href="materialsindex.html">Materials</a></li>
+		</div> <!--End of Navigation bar container-->
+
+		<div id= "centerpic"> <!--A static, hand-drawn picture that is displayed-->
+			<img src= "images/Center.jpg" width= "660" height= "335"> 
+		</div><!--End of Center picture container-->
+
+		<div id= "quote"><!--A static quote displayed under the center picture-->
+		<p> "A Drawing is Simply a Line going for a Walk" </p> 
+		</div><!--End of quote container-->
+
+		<div id= "Boxes"> <!--Navigation boxes(images) that mirror the Nagivation bar-->
+				<a class= "box1" href="aboutindex.html"></a>
+				<a class = "box2" href ="tutorialsindex.html"></a>
+				<a class= "box3" href ="materialsindex.html"></a> 
+		</div> <!--End of Boxes container-->
+
+		<div id="footer"> <!--Footers for the website-->
+			<div id="footerleft"> <!--Left Footer with copyright-->
+				<p>&#169; Simply Draw. 2015</p>
+			</div> <!--End of Left Footer container-->
+			<div id="footerright"> <!--Right Footer with Social Media links/images-->
+					<a href="https://www.facebook.com/Simply.Draw95">
+					<img class="footnav" src= "images/facebook.png" width= "40px" height= "40px"><a href="http://www.facebook.com/Simply.Draw95"></a> 
+					<a href="https://twitter.com/SimplyDraw95"><img class="footnav" src= "images/twitter.jpg" width= "40px" height= "40px"></a> 
+					<a href="http://instagram.com/simplydraw95"><img class="footnav" src= "images/instagram.png" width= "40px" height= "40px"></a> 
+			</div> <!--End of Right Footer container-->
+		</div><!--End of Footer container-->
+		
+	</div> <!--End of Main body container for page-->
+	</body>
+</html>
+
+
